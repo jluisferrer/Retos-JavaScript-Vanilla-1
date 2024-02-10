@@ -12,7 +12,8 @@
 //     console.log ('El numero 1 es mayor que el numero 2');
 // }
 // else if(numero1 === numero2){
-// console.log('Los numeros son iguales')}
+// console.log('Los numeros son iguales')
+//}
 // else {console.log ('El numero 2 es mayor que el numero 1')
 // }
 
@@ -56,7 +57,7 @@
 
 // let num = parseFloat(prompt("Introduzca su numero para calculaIVA"))
 
-// let numconIva=num*0.21
+// const numconIva=num*0.21
 
 // console.log("el precio de tu producto con IVA es", numconIva+num)
 
@@ -187,35 +188,35 @@
 // ^: 1o operando como base y 2o como exponente.
 // %: módulo, resto de la división entre operando1 y operando2.
 
-let numero1 = parseInt(prompt("Introduce primer numero"))
-let operacion = prompt("Introduce operacion que quieres realizar")
-let numero2 = parseInt(prompt("Introduce segundo numero"))
+// let numero1 = parseInt(prompt("Introduce primer numero"))
+// let operacion = prompt("Introduce operacion que quieres realizar")
+// let numero2 = parseInt(prompt("Introduce segundo numero"))
 
-if ((operacion === "+")||(operacion === "-")||(operacion === "*")||(operacion === "/")||(operacion === "^")||(operacion === "%")){
-if (operacion== "+"){
-let resultado = numero1 + numero2;
-console.log("El resultado de tu suma es",resultado)
-}
-else if (operacion== "-"){
-let resultado = numero1-numero2;
-console.log("El resultado de tu resta es", resultado)
-}
-else if (operacion== "*"){
-let resultado = numero1 * numero2;
-console.log("El resultado de tu multiplicacion es", resultado)
-}else if (operacion== "/"){
-let resultado = numero1 / numero2;
-console.log("El resultado de tu division es",resultado)
-}else if(operacion== "^"){
-let resultado = Math.pow(numero1, numero2);
-console.log("El resultado de elevar",numero1, "a", numero2, "es", resultado)
-}else if (operacion== "%"){
-let resultado = numero1 % numero2;
-console.log ("El resto de dividir",numero1, "entre", numero2, "es",resultado)
-}
-}else{
-    console.log ("El simbolo introducido no es corresponde a ninguna operacion")
-}
+// if ((operacion === "+") || (operacion === "-") || (operacion === "*") || (operacion === "/") || (operacion === "^") || (operacion === "%")) {
+//     if (operacion == "+") {
+//         let resultado = numero1 + numero2;
+//         console.log("El resultado de tu suma es", resultado)
+//     }
+//     else if (operacion == "-") {
+//         let resultado = numero1 - numero2;
+//         console.log("El resultado de tu resta es", resultado)
+//     }
+//     else if (operacion == "*") {
+//         let resultado = numero1 * numero2;
+//         console.log("El resultado de tu multiplicacion es", resultado)
+//     } else if (operacion == "/") {
+//         let resultado = numero1 / numero2;
+//         console.log("El resultado de tu division es", resultado)
+//     } else if (operacion == "^") {
+//         let resultado = Math.pow(numero1, numero2);
+//         console.log("El resultado de elevar", numero1, "a", numero2, "es", resultado)
+//     } else if (operacion == "%") {
+//         let resultado = numero1 % numero2;
+//         console.log("El resto de dividir", numero1, "entre", numero2, "es", resultado)
+//     }
+// } else {
+//     console.log("El simbolo introducido no es corresponde a ninguna operacion")
+// }
 
 
 
